@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGuess.Android", "WordGuess\WordGuess.Android\WordGuess.Android.csproj", "{386F67EE-41BE-4D66-A691-CA3803880C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGuess", "WordGuess\WordGuess\WordGuess.csproj", "{A903109A-C7E1-4323-A765-05D065FED1D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xamarin", "Xamarin", "{7D9EDB73-86DE-409F-ADCE-CA32FD6BCBF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VueJs", "VueJs", "{B9AA4A18-E420-4C49-A62B-34B3B4963BA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{386F67EE-41BE-4D66-A691-CA3803880C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386F67EE-41BE-4D66-A691-CA3803880C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386F67EE-41BE-4D66-A691-CA3803880C58}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{386F67EE-41BE-4D66-A691-CA3803880C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386F67EE-41BE-4D66-A691-CA3803880C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386F67EE-41BE-4D66-A691-CA3803880C58}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A903109A-C7E1-4323-A765-05D065FED1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A903109A-C7E1-4323-A765-05D065FED1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A903109A-C7E1-4323-A765-05D065FED1D5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A903109A-C7E1-4323-A765-05D065FED1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A903109A-C7E1-4323-A765-05D065FED1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A903109A-C7E1-4323-A765-05D065FED1D5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{386F67EE-41BE-4D66-A691-CA3803880C58} = {7D9EDB73-86DE-409F-ADCE-CA32FD6BCBF9}
+		{A903109A-C7E1-4323-A765-05D065FED1D5} = {7D9EDB73-86DE-409F-ADCE-CA32FD6BCBF9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22E0A035-BE41-4EC2-ACB6-9ED11D0244F0}
+	EndGlobalSection
+EndGlobal
