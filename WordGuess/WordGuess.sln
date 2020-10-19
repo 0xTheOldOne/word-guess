@@ -5,11 +5,13 @@ VisualStudioVersion = 15.0.28307.1259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGuess.Android", "WordGuess\WordGuess.Android\WordGuess.Android.csproj", "{386F67EE-41BE-4D66-A691-CA3803880C58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGuess", "WordGuess\WordGuess\WordGuess.csproj", "{A903109A-C7E1-4323-A765-05D065FED1D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordGuess", "WordGuess\WordGuess\WordGuess.csproj", "{A903109A-C7E1-4323-A765-05D065FED1D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xamarin", "Xamarin", "{7D9EDB73-86DE-409F-ADCE-CA32FD6BCBF9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VueJs", "VueJs", "{B9AA4A18-E420-4C49-A62B-34B3B4963BA3}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "WordGuessVueJS", "WordGuessVueJS\WordGuessVueJS.njsproj", "{986D6199-72D9-4C93-9D95-55F161E5696F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{A903109A-C7E1-4323-A765-05D065FED1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A903109A-C7E1-4323-A765-05D065FED1D5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A903109A-C7E1-4323-A765-05D065FED1D5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{986D6199-72D9-4C93-9D95-55F161E5696F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986D6199-72D9-4C93-9D95-55F161E5696F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986D6199-72D9-4C93-9D95-55F161E5696F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986D6199-72D9-4C93-9D95-55F161E5696F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{386F67EE-41BE-4D66-A691-CA3803880C58} = {7D9EDB73-86DE-409F-ADCE-CA32FD6BCBF9}
 		{A903109A-C7E1-4323-A765-05D065FED1D5} = {7D9EDB73-86DE-409F-ADCE-CA32FD6BCBF9}
+		{986D6199-72D9-4C93-9D95-55F161E5696F} = {B9AA4A18-E420-4C49-A62B-34B3B4963BA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22E0A035-BE41-4EC2-ACB6-9ED11D0244F0}
